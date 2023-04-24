@@ -60,11 +60,10 @@ class PagesController extends Controller
                         'quality' => $requested_site['quality'],
                         'price' => $requested_site['price'],
                     ];
+                                       
+                    $result['sites'] = array_slice($sites, 0, 10);
                     
-                    for($i=0;$i<10;++$i)
-                        $result['sites'][] = $sites[$i];
-                        
-                        return response()->json($result, 200);
+                    return response()->json($result, 200);
                 }                    
             }
             
