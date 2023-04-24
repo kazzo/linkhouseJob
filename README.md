@@ -6,7 +6,7 @@ Użyłem frameworka laravel 10.7 i PHP 8.2
 
 *Wszystkie endpointy mają w nagłówkach Content-Type: application/json i Accept: application/json oraz są dostępne bez autoryzacji w API*
 
-### Wybór podobnych stron 
+### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) Wybór podobnych stron 
 
 URL: api/similarpages
 
@@ -18,13 +18,13 @@ Parametry:
 Zwraca (w przypadku powodzenia):
 - tabela z właściwościami requested_site i sites
 
-### Zasilenie tabeli sites danymi z 'app.linkhouse.co/rekrutacja/strony' na potrzeby następnego endpointa
+### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) Zasilenie tabeli sites danymi z 'app.linkhouse.co/rekrutacja/strony' na potrzeby następnego endpointa
 
 URL: api/fillpages
 
 Metoda POST
 
-### Zwraca wyniki z tabeli sites dla zadanych kryteriów
+### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) Zwraca wyniki z tabeli sites dla zadanych kryteriów
 
 URL: api/findpages
 
