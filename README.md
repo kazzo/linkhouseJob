@@ -55,8 +55,4 @@ Sortowanie kolumn poprzez klikniecie w nagłówek kolumny (sortowanie po kolejny
 
 Wyszukiwanie poprzez rozpoczęcie pisania tekstu (focus na polu wyszukiwania ustawiany automatycznie)
 
-<<<<<<< Updated upstream
 Dodałem od siebie przycisk "Zmień klucz API", tak aby po wpisaniu niepoprawnego klucza użytkownik nie musiał "grzebać" w local storage i usuwać go ręcznie. Przechowywania klucza w cookies nie zaimplementowałem - rozumiem, że było to opcjonalne i niezalecane.
-=======
-Dodałem od siebie przycisk "Zmień klucz API", tak aby po wpisaniu niepoprawnego klucza użytkownik nie musiał "grzebać" w local storage i usuwać go ręcznie. Przechowywania klucza w cookies nie zaimplementowałem - rozumiem, że było to opcjonalne i niezalecane.
->>>>>>> Stashed changes
