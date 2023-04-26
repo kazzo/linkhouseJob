@@ -39,4 +39,20 @@ Zwraca (w przypadku powodzenia):
 - tabela ze znalezionymi stronami
 
 # FRONTEND
-*In progress*
+
+Strona z tabelą dostępna jako główny index projektu w Laravelu.
+
+Plik komponentu w: resources/js/components/DataTable.vue 
+
+Propsy do konfiguracji:
+
+- dataUrl - (wymagany) link do pobrania danych z API
+- pingUrl - (wymagany) link do wysyłania ID do API
+- title - (wymagany) tytuł tabeli
+- rows - (opcjonalny) liczba wyświetlanych wierszy
+
+Sortowanie kolumn poprzez klikniecie w nagłówek kolumny (sortowanie po kolejnych kliknięciach: rosnąco, malejąco, brak sortowania)
+
+Wyszukiwanie poprzez rozpoczęcie pisania tekstu (focus na polu wyszukiwania ustawiany automatycznie)
+
+Dodałem od siebie przycisk "Zmień klucz API", tak aby po wpisaniu niepoprawnego klucza użytkownik nie musiał "grzebać" w local storage i usuwać go ręcznie. Przechowywania klucza w cookies nie zaimplementowałem - rozumiem, że było to opcjonalne i niezalecane.
